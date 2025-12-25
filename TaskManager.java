@@ -15,13 +15,13 @@ public class TaskManager {
             System.out.println(i + ": " + tasks.get(i));
         }
     }
-
+//  delete task function
     public static void deleteTask(int index) {
     if (index >= 0 && index < tasks.size()) {
         System.out.println("Removed: " + tasks.get(index));
         tasks.remove(index);
     } else {
-        System.out.println("Task not found!");
+        System.out.println("oops! task not found...");
     }
     }
     }
