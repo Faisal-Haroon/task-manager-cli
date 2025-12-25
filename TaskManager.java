@@ -4,9 +4,11 @@ public class TaskManager {
 
     static ArrayList<String> tasks = new ArrayList<>();
 
+    // Adds a new task to the list
     public static void addTask(String task) {
         tasks.add(task);
         System.out.println("Task added: " + task);
+        System.out.println("Task successfully added!");
     }
 
     public static void showTasks() {
