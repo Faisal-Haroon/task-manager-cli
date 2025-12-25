@@ -6,6 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
+            System.out.println("\n==== TASK MANAGER ====");
             System.out.println("\n1. Add Task");
             System.out.println("2. Show Tasks");
             System.out.println("3. Delete Task");
@@ -29,6 +30,7 @@ public class Main {
                 TaskManager.deleteTask(index);
 
             } else if (choice == 4) {
+                System.out.println("Exiting Task Manager. Goodbye!");
                 break;
             }
         }
