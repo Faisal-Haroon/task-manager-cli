@@ -10,11 +10,11 @@ public class TaskManager {
     }
 
     public static void showTasks() {
-        System.out.println("Tasks:");
-        for (int i = 0; i < tasks.size(); i++) {
-            System.out.println(i + ": " + tasks.get(i));
-        }
+    System.out.println("---- Task List ----");
+    for (int i = 0; i < tasks.size(); i++) {
+        System.out.println((i + 1) + ". " + tasks.get(i));
     }
+}
 
     public static void deleteTask(int index) {
         if (index >= 0 && index < tasks.size()) {
