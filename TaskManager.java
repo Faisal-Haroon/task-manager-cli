@@ -17,11 +17,12 @@ public class TaskManager {
     }
 
     public static void deleteTask(int index) {
-        if (index >= 0 && index < tasks.size()) {
-            System.out.println("Task deleted: " + tasks.get(index));
-            tasks.remove(index);
-        } else {
-            System.out.println("Invalid index");
-        }
+    if (index >= 0 && index < tasks.size()) {
+        System.out.println("Removed: " + tasks.get(index));
+        tasks.remove(index);
+    } else {
+        System.out.println("Task not found!");
     }
-}
+    }
+    }
+
