@@ -13,6 +13,9 @@ public class TaskManager {
     System.out.println("---- Task List ----");
     for (int i = 0; i < tasks.size(); i++) {
         System.out.println((i + 1) + ". " + tasks.get(i));
+        System.out.println("task is show ");
+        System.out.println("------well------");
+        System.out.println("--------");
     }
 }
 
